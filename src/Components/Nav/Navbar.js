@@ -9,7 +9,7 @@ function Navbar() {
     }
 
     return (
-        <div className="bg-transparent fixed z-20 w-full py-4">
+        <div className="bg-transparent fixed z-20 w-full py-4 font-serif">
             <div className="flex justify-between align-middle md:mx-52 mx-10">
                 <div>
                     <Link to="/">
@@ -24,22 +24,22 @@ function Navbar() {
                 <div className="hidden w-full md:block md:w-auto z-30" id="navbar-default">
                     <ul className="flex flex-col align-middle p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium text-white z-30">
                         <li className='text-lg'>
-                            <Link to="">Home</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li className='text-lg'>
-                            <Link to="">About Us</Link>
+                            <Link to="/about">About Us</Link>
                         </li>
                         <li className='text-lg'>
-                            <Link to="">Services</Link>
+                            <Link to="/service">Services</Link>
                         </li>
                         <li className='text-lg'>
-                            <Link to="">Careers</Link>
+                            <Link to="/career">Careers</Link>
                         </li>
                         <li className='text-lg'>
-                            <Link to="">Blog</Link>
+                            <Link to="/blog">Blog</Link>
                         </li>
                         <li className='text-lg'>
-                            <Link to="">Contact Us</Link>
+                            <Link to="/contact">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

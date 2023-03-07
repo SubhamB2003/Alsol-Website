@@ -6,9 +6,10 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Carousel from '../Components/Carousel/Carousel';
 
+
 function Home() {
     return (
-        <div>
+        <div className='font-serif'>
             <Carousel />
             <div className='mx-10 md:mx-32 my-10 md:my-28'>
                 <div className='flex justify-evenly'>
@@ -127,7 +128,7 @@ function Home() {
                 </Swiper>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:px-28 px-10 py-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:px-28 px-10 py-20'>
                 <div className='space-y-6'>
                     <div>
                         <img src={require("../assets/Icon/bar-chart-2.png")} alt='' className='w-20' />
@@ -141,36 +142,37 @@ function Home() {
                 </div>
                 <div className='md:p-16 relative'>
                     <img src={require("../assets/others/vision.png")} alt='' />
-                    <div className='px-10 py-6 absolute bottom-0 left-0 bg-white rounded-xl border space-y-2 hidden md:block'>
+                    <div className='px-10 py-6 absolute bottom-2 left-0 bg-white rounded-xl border space-y-2 hidden md:block shadow-lg shadow-gray-400'>
                         <p className='text-[1.1rem]' style={{ fontWeight: "500" }}>Ideas are not at issue. It involves putting ideas into action.</p>
                         <p className='text-center text-red-500'>-Manas Das</p>
                     </div>
-                    <img src={require("../assets/Icon/bar-chart-2.png")} alt='' className='w-20 rotate-180 absolute right-6' />
+                    <img src={require("../assets/Icon/bar-chart-2.png")} alt='' className='w-20 rotate-180 absolute right-2 mt-10' />
                 </div>
             </div>
 
-            <div className='bg-[#F2FCFE] py-14 px-24'>
+            <div className='bg-[#F2FCFE] py-20 px-6 md:px-40'>
+                <div className='text-center pb-16'>
+                    <h1 className='text-4xl font-bold'><span className='text-[#187EC2]'>Our</span> Testimonial</h1>
+                    <p className='font-semibold pt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
                 <Swiper
                     breakpoints={{
-                        640: {
-                            width: 640,
-                            slidesPerView: 1,
-                        },
                         768: {
                             width: 768,
                             slidesPerView: 2,
+                            spaceBetween: 30
                         },
-                        1000: {
+                        1200: {
                             width: 1200,
                             slidesPerView: 3,
+                            spaceBetween: 40
                         }
                     }}
-                    spaceBetween={30}
                     pagination={{
                         clickable: true,
                     }}
                     modules={[Pagination]}
-                    className="mySwiper"
+                    className="mySwiper service"
                 >
                     <SwiperSlide className='border-2 rounded-xl bg-white'>
                         <div className='p-4'>
@@ -245,6 +247,26 @@ function Home() {
                         </div>
                     </SwiperSlide>
                 </Swiper>
+            </div>
+
+            <div className='text-center space-y-2 py-20 px-4'>
+                <p className='font-bold text-4xl'><span className='text-[#187EC2]'>Our</span> Partners</p>
+                <p className='font-semibold'>We  values’ on strong relationships along with our partners.</p>
+
+                <div className='flex flex-wrap justify-evenly pt-20'>
+                    <div>
+                        <img src={require("../assets/Icon/cropped-Broom-Boom-Logo-Design-Final-on-White 1.png")} alt="" className='h-24 w-24 object-contain' />
+                    </div>
+                    <div>
+                        <img src={require("../assets/Icon/logo 1.png")} alt="" className='h-24 w-40 object-contain' />
+                    </div>
+                    <div>
+                        <img src={require("../assets/Icon/logo 2.png")} alt="" className='h-24 w-40 object-contain' />
+                    </div>
+                    <div>
+                        <img src={require("../assets/Icon/logo-4 (1) 1.png")} alt="" className='h-24 w-40 object-contain' />
+                    </div>
+                </div>
             </div>
         </div>
     )

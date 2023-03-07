@@ -1,14 +1,27 @@
 :root {
-  --swiper-theme-color: #fff;
+  --swiper-theme-color: #000;
   --swiper-navigation-size: 30px;
 }
 
-.swiper-button-prev {
+.header .swiper-button-prev {
   margin-left: 5%;
+  padding: 2rem 1rem;
+  backdrop-filter: blur(2rem);
+  border-radius: 10%;
+  color: white;
 }
 
-.swiper-button-next {
+.header .swiper-button-next {
   margin-right: 5%;
+  padding: 2rem 1rem;
+  backdrop-filter: blur(2rem);
+  border-radius: 10%;
+  color: white;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 1rem;
 }
 
 .bg-gradient::before {
