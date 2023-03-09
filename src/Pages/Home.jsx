@@ -21,7 +21,7 @@ function Home() {
                     <img src={require("../assets/Icon/dots.png")} alt="dot-icon" className='w-24 hidden md:block' />
                 </div>
 
-                <div className='pt-10 md:pt-40 flex flex-col md:flex-row space-y-5 md:space-y-0'>
+                <div className='pt-10 md:pt-40 flex flex-col md:flex-row space-y-5 md:space-y-0 relative'>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             className="w-20 h-20 fill-white bg-[#00BAF0] p-4 rounded-lg mx-auto">
@@ -32,6 +32,9 @@ function Home() {
                             <h3 className='text-3xl font-bold'>Innovative</h3>
                             <p className="text-[#828282]">Developing original responses to complicated challenges</p>
                         </div>
+                    </div>
+                    <div className='hidden md:block absolute left-[17.5rem] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
                     </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,6 +47,9 @@ function Home() {
                             <p className="text-[#828282]">Developing innovative, tailored web solutions.</p>
                         </div>
                     </div>
+                    <div className='hidden md:block absolute left-[48%] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
+                    </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             className="w-20 h-20 fill-white bg-[#00BAF0] p-4 rounded-lg mx-auto">
@@ -55,6 +61,9 @@ function Home() {
                             <h3 className='text-3xl font-bold'>Effective</h3>
                             <p className="text-[#828282]">Producing quality products in a timely manner.</p>
                         </div>
+                    </div>
+                    <div className='hidden md:block absolute right-[8.5rem] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
                     </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -157,6 +166,10 @@ function Home() {
                 </div>
                 <Swiper
                     breakpoints={{
+                        100: {
+                            slidesPerView: 1,
+                            spaceBetween: 30
+                        },
                         768: {
                             width: 768,
                             slidesPerView: 2,

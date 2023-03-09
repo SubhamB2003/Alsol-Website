@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../Components/Header/Header'
 
 function About() {
@@ -141,7 +142,9 @@ function About() {
               <p className='text-xl font-bold'>Contact us</p>
               <p>Lorem ipsum dolor sit amet consectetur. Lorem habitant leo turpis vitae dolor nulla facilisi. </p>
             </div>
-            <p className='text-[#187EC2]'>Contact page</p>
+            <Link to="/contact">
+              <p className='text-[#187EC2]'>Contact page</p>
+            </Link>
           </div>
         </div>
       </div>

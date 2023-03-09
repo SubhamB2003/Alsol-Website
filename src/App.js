@@ -1,5 +1,8 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import CareerForm from './Pages/CareerForm';
+import Contact from './Pages/Contact';
+
 const Footer = lazy(() => import('./Components/Footer/Footer'));
 const Navbar = lazy(() => import('./Components/Nav/Navbar'));
 const About = lazy(() => import('./Pages/About'));
@@ -8,6 +11,7 @@ const Home = lazy(() => import('./Pages/Home'));
 const Service = lazy(() => import('./Pages/Service'));
 const Testimonial = lazy(() => import('./Pages/Testimonial'));
 const WebdevService = lazy(() => import('./Pages/WebdevService'));
+const Blog = lazy(() => import('./Pages/Blog'));
 
 
 function App() {
@@ -23,6 +27,9 @@ function App() {
             <Route path="/service" element={<Service />} />
             <Route path="/service/webdev" element={<WebdevService />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/career/apply" element={<CareerForm />} />
           </Routes>
           <Footer />
         </Suspense>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../Components/Header/Header'
 
 function Career() {
@@ -14,7 +15,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -33,7 +36,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -52,7 +57,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -71,7 +78,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -90,7 +99,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -109,7 +120,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -128,7 +141,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>
@@ -147,7 +162,9 @@ function Career() {
                         <div className='flex justify-between py-4'>
                             <p className='text-lg font-bold'>React Native</p>
                             <p className='py-2 text-sm px-6 bg-sky-100 rounded-xl'>Available</p>
-                            <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            <Link to="/career/apply">
+                                <button className='text-[#187EC2] font-bold'>Apply Now</button>
+                            </Link>
                         </div>
                         <div className='py-3 flex md:gap-10 gap-4 text-sm'>
                             <p>HTML</p>

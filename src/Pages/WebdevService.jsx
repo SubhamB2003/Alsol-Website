@@ -30,7 +30,11 @@ function WebdevService() {
             <div className='bg-[#e0ffd2] py-20 px-6 md:px-40 rounded-tl-full rounded-tr-full h-[90vh]'>
                 <div className='text-center pb-16 mt-16'>
                     <h1 className='text-xl font-semibold'>Website Design and Development</h1>
-                    <p className='text-xl font-semibold pt-2'>Services</p>
+                    <div className='flex justify-center items-end space-x-4'>
+                        <div className='h-2 w-2 rounded-full bg-[#00BAF0] mb-2' /><div className='h-2 w-2 rounded-full bg-[#00BAF0] mb-2' />
+                        <div><p className='text-xl font-semibold pt-2'>Services</p></div>
+                        <div className='h-2 w-2 rounded-full bg-[#00BAF0] mb-2' /><div className='h-2 w-2 rounded-full bg-[#00BAF0] mb-2' />
+                    </div>
                 </div>
 
                 <Swiper
