@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Suspense>
+        <Suspense fallback={<p className='text-xl font-semibold p-4 text-center font-serif'>Loading...</p>}>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

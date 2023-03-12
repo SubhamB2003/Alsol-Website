@@ -33,8 +33,8 @@ function Home() {
                             <p className="text-[#828282]">Developing original responses to complicated challenges</p>
                         </div>
                     </div>
-                    <div className='hidden md:block absolute left-[17.5rem] top-[53%]'>
-                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
+                    <div className='hidden xl:block absolute left-[14rem] 2xl:left-[17.5rem] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[60%] 2xl:w-[70%]' />
                     </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -47,8 +47,8 @@ function Home() {
                             <p className="text-[#828282]">Developing innovative, tailored web solutions.</p>
                         </div>
                     </div>
-                    <div className='hidden md:block absolute left-[48%] top-[53%]'>
-                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
+                    <div className='hidden xl:block absolute left-[48%] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[60%] 2xl:w-[70%]' />
                     </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -62,8 +62,8 @@ function Home() {
                             <p className="text-[#828282]">Producing quality products in a timely manner.</p>
                         </div>
                     </div>
-                    <div className='hidden md:block absolute right-[8.5rem] top-[53%]'>
-                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[70%]' />
+                    <div className='hidden xl:block absolute right-[4.2rem] 2xl:right-[8.5rem] top-[53%]'>
+                        <img src={require("../assets/Icon/dots-line.png")} alt="" className='w-[60%] 2xl:w-[70%]' />
                     </div>
                     <div className="space-y-7">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -96,9 +96,9 @@ function Home() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className='py-10 md:px-32 px-10 grid md:grid-cols-2 grid-cols-1 gap-5'>
+                        <div className='py-10 md:px-32 px-10 grid xl:grid-cols-2 grid-cols-1 gap-5'>
                             <div className='flex justify-center'>
-                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden md:block' />
+                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden xl:block' />
                             </div>
                             <div className='flex items-center'>
                                 <div className='flex flex-col'>
@@ -109,9 +109,9 @@ function Home() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='py-10 md:px-32 px-10 grid md:grid-cols-2 grid-cols-1 gap-5'>
+                        <div className='py-10 md:px-32 px-10 grid xl:grid-cols-2 grid-cols-1 gap-5'>
                             <div className='flex justify-center'>
-                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden md:block' />
+                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden xl:block' />
                             </div>
                             <div className='flex items-center'>
                                 <div className='flex flex-col'>
@@ -122,9 +122,9 @@ function Home() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='py-10 md:px-32 px-10 grid md:grid-cols-2 grid-cols-1 gap-5'>
+                        <div className='py-10 md:px-32 px-10 grid xl:grid-cols-2 grid-cols-1 gap-5'>
                             <div className='flex justify-center'>
-                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden md:block' />
+                                <img src={require("../assets/others/development.png")} alt='' className='w-[22rem] object-cover hidden xl:block' />
                             </div>
                             <div className='flex items-center'>
                                 <div className='flex flex-col'>
